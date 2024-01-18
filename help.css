@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.accordion-button:focus{
+    background: transparent;
+    box-shadow: none;
+}
+.letter-spacing{
+    letter-spacing: 2px;
+}
+
+
+@media (max-width:576px){
+    .products-container{
+        padding-left: 10px;
+    }
+.accordion-button{
+    width: 100%;
+    font-size: 18px;
+}
+
+.accordion-body{
+    width: 100%;
+    font-size: 16px;
+}
+
+}
+
+@media ( min-width:576px)and (max-width: 992px){
+
+    .accordion-button{
+        width: 100%;
+        font-size: 24px;
+    }
+    
+    .accordion-body{
+        width: 100%;
+        font-size: 22px;
+    }  
+}

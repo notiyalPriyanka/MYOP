@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+#LoginError1{
+    display: none;
+}
+
+#LoginError1{
+    display: none;
+}
+
+.myLoginForm{
+    width: 450px;
+    margin-bottom: 80px;
+}
+.Login-btn{
+    width: 100%;
+    letter-spacing: 2px;
+ 
+    background-color: #000;
+    color: #fff;
+    }
+.Login-btn:hover{
+    background:#fff;
+    color: #000;
+    border: 1px solid #000;
+}
+.forgt-paswrd{
+    font-size: 16px;
+    margin-left: 170px;
+}
+
+.heding-form{
+letter-spacing: 2px;}
+
+@media (max-width: 576px) {
+    .myLoginForm{
+        width: 300px;
+        margin-bottom: 80px;
+
+    }
+    .form-label{
+        font-size: 20px;
+    }
+    .Forget-pass{
+        margin-top: 10px;
+        font-size: 19px;
+    }
+    .signup-text{
+        width: 90%;
+        margin-left:10px;
+        margin-top: 0;
+    }
+    
+}
+@media(min-width: 576px)and (max-width: 992px){
+    .myLoginForm{
+        width: 600px;
+        margin-bottom: 80px;
+
+    }
+    .form-label{
+        font-size: 23px;
+    }
+    .Forget-pass{
+        margin-top: 10px;
+        font-size: 22px;
+    }
+    .signup-text{
+        font-size: 20px;
+        margin-top: 0;
+    }
+
+
+}

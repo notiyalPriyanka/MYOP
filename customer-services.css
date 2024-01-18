@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.letter-spacing{
+    letter-spacing: 2px;
+}
+
+.color{
+    color: orange;
+}
+.icon{
+    color: orange;
+    font-size : 80px ;
+}
+
+
+@media (max-width:576px){
+/* connect with us */
+
+.CONNECT-title{
+width: 100%;
+font-size: 18px;
+
+}
+.CONNECT-text{
+    width: 100%;
+    font-size: 16px;
+}
+
+.find-us-text{
+    width: 100%;
+    font-size: 16px;
+
+}
+.main-text-grievance{
+    width: 100%;
+    font-size: 16px;
+}
+
+
+
+}
+@media ( min-width:576px)and (max-width: 992px){
+
+    .CONNECT-title{
+        width: 100%;
+        font-size: 24px;
+        
+        }
+        .CONNECT-text{
+            width: 100%;
+            font-size: 22px;
+        }
+        .find-us-text{
+            width: 100%;
+            font-size: 24px;
+        }
+        .main-text-grievance{
+            width: 100%;
+            font-size: 24px;
+        }
+}

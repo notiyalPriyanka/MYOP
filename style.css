@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+/* 3main */
+.parent{
+    overflow: hidden;
+    position: relative;
+    cursor:pointer ;
+    display: inline-block ;
+}
+#images{
+    transition: all 1.1s;
+
+}
+.parent:hover #images {
+    transform: scale(1.1);
+}
+.shop-c-text{
+    white-space: nowrap;
+    font-size: 1rem;
+}
+
+
+
+/* 4main banner */
+#background-content{
+    /* width :100%; */
+    height:450px;
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)) , url(/images/4-main-banner-image\ 1.webp);
+    display: flex;
+    justify-content: center;
+    background-position: right;
+    
+}
+.img-adjust{
+    width: 265px;
+    height: 250px;
+    margin-top: 30px;
+}
+
+/* about myop  */
+
+.about-myop-button:hover{
+    background-color: black;
+    color: white !important;;
+    }
+
+.about-text-width{
+        width: 78%;
+        text-align: center;
+        margin-left: 10%;
+    }
+
+/* video */
+#header{
+    position: relative;
+}
+.video{
+    width: 100%;
+    height: 80vh;
+}
+.video video{
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+}
+.header-text{
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    text-align: center;
+
+}
+.header-text .btn{
+    width: 55%;
+    height: 43%;
+
+}
+.video-text-width{
+    width: 50%;
+}
+
+/* collection */
+
+.collection-btn:hover{
+    background: white !important;
+    color:black !important;
+}
+.collection-images{
+    object-fit: cover;
+    width: 350px;
+    height: 350px;
+}
+.fragrance-mist-width{
+    width: 78%;
+}
+
+
+
+
+.button-1{
+    height: 80px !important;
+    width: 90px ;
+}
+
+/* trending */
+.trending-button:hover{
+    border:1px solid black !important;
+    }
+    .trending-text{
+        letter-spacing: 3px;
+    }
+    
+.btn{
+    /* width: 50%; */
+    letter-spacing: 2px;
+    }
+
+
+
+    /* assseen  */
+
+
+.assSeen{
+    display: flex;
+    align-items: center;
+    
+}
+.letter-spacing{
+    letter-spacing: 2px;
+}
+
+
+
+
+
+@media (max-width:576px){
+
+/* 3rd main */
+.shop-c-text{
+    /* white-space: nowrap; */
+    /* letter-spacing: 1px; */
+    font-size: 14px;
+    text-align: center;
+    margin-left: -10px;
+}
+
+/*  4th main banner   */
+#background-content{
+    /* width :100%; */
+    height:300px;
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)), url(/images/4-main-banner-image\ 1.webp);
+    
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    width: 100%;
+    object-fit: cover;
+}
+.img-adjust{
+    width: 220px;
+    height: 195px;
+    margin-top: 30px;
+}
+
+
+/* about */
+
+    .about-text-width{
+        width: 96%;
+        font-size: 16px;
+        text-align: center;
+        margin-left: 2%;
+    }
+
+/* video */
+
+    .video-text-width{
+    width: 86%;
+    margin-right: 10%;
+}
+.video{
+    width: 100%;
+    height: 40vh;
+}
+.video video{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}
+.header-text{
+    position: absolute;
+    /* bottom: 18%; */
+    top:40%;
+    left: 6%;
+    /* font-size: 0.7rem !important; */
+    text-align: center;
+    /* transform: translateY(50); */
+    text-align: center;
+
+}
+.header-text .btn{
+    white-space: nowrap;
+    width: 68%;
+    height: 27%;
+}
+
+/* collection */
+
+    .fragrance-row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    /* .trending-text{
+        letter-spacing: 3px;
+    } */
+    
+   
+   
+    .fragrance-mist-width{
+        width: 100%;
+        font-size: 16px;
+    }
+}
+ /* @media (max-width: 768px){
+    .trending-text{
+        letter-spacing: 3px;
+    }
+    #background-content{
+        height:400px;
+        background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)), url(images/4-main-banner-image\ 1.webp);
+        
+   
+} */
+
+@media ( min-width:576px)and (max-width: 992px){
+
+
+    /* 3rd main */
+    .shop-c-text{
+        white-space: nowrap; 
+        letter-spacing: 1px; 
+        font-size: 24px;
+        text-align: center;
+        margin-left: -10px;
+    }
+    
+    /* 4thmain */
+    #background-content{
+        /* width :100%; */
+        height:300px;
+        background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)), url(/images/4-main-banner-image\ 1.webp);
+        
+        display: flex;
+        justify-content: center;
+        background-position: center;
+        width: 100%;
+        object-fit: cover;
+    }
+    .img-adjust{
+        width: 250px;
+        height: 220;
+        margin-top: 30px;
+    }
+    
+/* about myop */
+
+.about-text-width{
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+    font-size:24px ;
+}
+.about-myop-button{
+    width:30%;
+    height:99%;
+    font-size: 20px;
+}
+/* video */
+
+#header{
+    position: relative;
+}
+.video{
+    width: 100%;
+    height: 40vh;
+}
+.video video{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}
+.header-text{
+    position: absolute;
+    top: 58%;
+    left: 15%;
+    text-align: center;
+
+}
+.header-text .btn{
+    width: 60%;
+    height: 80%;
+    font-size: 20px;
+
+}
+.video-text-width{
+    width: 70%;
+    font-size: 16px;
+}
+
+/* collection */
+.collection-images{
+    object-fit: cover;
+    width: 550px;
+    height: 550px;
+    margin-top: 20%;
+    margin-left: 0;
+}
+.fragrance-mist-width{
+    width: 100%;
+    font-size: 22px;
+}
+.collection-btn{
+    width:75% ;
+    font-size: 20px;
+}
+
+
+/* trendig text */
+.trending-text{
+        font-size: 22px;
+    }
+.trending-text2{
+        font-size: 20px;
+    }
+.trending-button{
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+}
+
+
+/* from jonel text */
+
+.from-j-text{
+        font-size:22px
+    }
+    /* .footer-text1{
+        font-size: 21px;
+    }
+    .footer-text-2{
+        font-size: 23px;
+    } */
+    
+    
+
+}

@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(210, 211, 212);
+    opacity: 0.5px;
+}
+
+.row{
+    padding-top: 5%;
+    padding-left: 25%;
+}
+.search-feild{
+    width: 700px;
+    height: 40px;
+    position: relative;
+    
+}
+.search-feild:active{
+    border: black;
+}
+.search-feild:focus{
+    
+    box-shadow: none;
+}
+.search-icon{
+    position: absolute;
+    left: 57%;
+    top:30%;
+}
+.btn-close{
+    position:absolute ;
+    margin-left: 65%;
+    top: 30%;
+}
+@media (max-width:576px){
+
+    .row{
+        padding-top: 5%;
+        padding-left: 5%;
+    }
+    .search-feild{
+        width: 300px;
+        height: 40px;
+        position: relative;
+        
+    }
+    .search-icon{
+        position: absolute;
+        left: 75%;
+        top:30%;
+    }
+    .btn-close{
+        position:absolute ;
+        margin-left: 85%;
+        top: 30%;
+    }
+}
+@media ( min-width:576px)and (max-width: 992px){
+    .row{
+        padding-top: 5%;
+        padding-left: 15%;
+    }
+    .search-feild{
+        width: 580px;
+        height: 40px;
+        position: relative;
+        
+    }
+    .search-icon{
+        position: absolute;
+        left: 77%;
+        top:30%;
+    }
+    .btn-close{
+        position:absolute ;
+        margin-left: 85%;
+        top: 30%;
+    }
+}
